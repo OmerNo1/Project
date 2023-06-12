@@ -9,7 +9,8 @@ const addCostRouter = require("./routes/addcost");
 const reportRouter = require("./routes/report");
 
 const app = express();
-const url = `mongodb+srv://tomaviv:tomaviv@cluster0.eh07laz.mongodb.net/CostsManager?retryWrites=true&w=majority`;
+const url = `mongodb+srv://OmerNorman:fHZdpDrHkaEI9eex@cluster0.5rmvbkd.mongodb.net/`;
+//mongodb+srv://OmerNorman:fHZdpDrHkaEI9eex@cluster0.5rmvbkd.mongodb.net/
 
 mongoose.set("strictQuery", false);
 // connect to mongodb
